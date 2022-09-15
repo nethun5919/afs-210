@@ -24,7 +24,7 @@ def loop1Rec(num,odd_sum):
 
     odd_sum = 0
     for i in range(20):
-        if (num % 2) == 1:
+        if (i % 2) == 1:
             odd_sum += i
     return odd_sum
     
