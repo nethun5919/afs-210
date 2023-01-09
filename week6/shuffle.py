@@ -9,7 +9,7 @@ def shuffle (list):
   for i in range(len(list) -1, 0, -1):
     #print(i)
     j = random.randint(0, i + 1)
-    #print(j)
+   # print(j)
     list[i],list [j]= list [j],list[i]
     return list
 shuffle(list)
